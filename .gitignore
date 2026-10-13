@@ -1,0 +1,13 @@
+*.iml
+.gradle/
+.idea/
+.kotlin/
+local.properties
+build/
+__pycache__/
+
+# Eigene Notizen und Werkzeuge bleiben auf der Platte
+tools/
+/*.md
+!/README.md
+!/README.en.md
