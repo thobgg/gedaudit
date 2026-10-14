@@ -18,7 +18,8 @@ Seite mit Handbuch: [gedaudit.bgg-home.de](https://gedaudit.bgg-home.de/de/) · 
 - Treffer abhaken; sie kommen erst wieder, wenn sich an der Stelle etwas ändert. Abhakliste sichern und laden.
 - Person zum Treffer mit Ereignissen, Eltern, Partnern und Kindern; bei Paaren beide nebeneinander. Strg+C kopiert den Personentext.
 - Zwei Dateien vergleichen: geändert, nur in der einen oder anderen, wahrscheinlich dieselbe Person.
-- Aufbau der Datei: der Tag-Baum je Datensatzart, Hersteller-Tags und Tags außerhalb des Standards markiert.
+- Aufbau der Datei: der Tag-Baum je Datensatzart, GEDCOM-L, Hersteller-Tags und Tags außerhalb des Standards markiert.
+- GEDCOM-L-Addendum: Paten und Zeugen ohne Datensatz (`_GODP`, `_WITN`), GOV-Kennung, Postleitzahl und Maidenhead-Locator am Ort, Familienstand; Verweise auf Ortsdatensätze (`_LOC`), die ins Leere zeigen, werden gemeldet.
 - Drucken und PDF. GEDCOM 5.5, 5.5.1 und 7; Zeichensätze UTF-8, UTF-16, ANSEL, ANSI.
 
 <p align="center"><img src="docs/screenshots/gedaudit-vergleich.jpg" alt="Zwei Stände des Demo-Baums im Vergleich" width="900"><br><b>Zwei Dateien vergleichen</b>: Falkenrath 1.3 gegen 1.6.</p>
