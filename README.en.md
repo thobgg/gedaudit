@@ -5,7 +5,7 @@
 <p align="center"><img src="gedaudit/icons/app.png" alt="gedaudit" width="96"></p>
 
 gedaudit checks a GEDCOM file for contradictions and oddities: chronology, age limits, structure, names, sources, places and
-the form of the file. 71 rules, each a question with a yes or no answer. The file is only read; nothing leaves your computer.
+the form of the file. 77 rules, each a question with a yes or no answer. The file is only read; nothing leaves your computer.
 For Windows, Linux and macOS, interface in English, German, French, Dutch and Spanish.
 
 Website with manual: [gedaudit.bgg-home.de](https://gedaudit.bgg-home.de/) · Packages: [Releases](https://github.com/thobgg/gedaudit/releases)
@@ -20,6 +20,7 @@ Website with manual: [gedaudit.bgg-home.de](https://gedaudit.bgg-home.de/) · Pa
 - Comparing two files: changed, only in one or the other, probably the same person.
 - File structure: the tag tree per record type, GEDCOM-L, vendor tags and tags outside the standard highlighted.
 - GEDCOM-L addendum: godparents and witnesses without a record (`_GODP`, `_WITN`), GOV identifier, postal code and Maidenhead locator at places, family status; pointers to location records (`_LOC`) that lead nowhere are reported.
+- File header (program, submitter, version, file name, date) and the rules of GEDCOM 7; checked by the version in the header or, if you choose, as 5.5.1 or 7.0.
 - Print and PDF. GEDCOM 5.5, 5.5.1 and 7; character sets UTF-8, UTF-16, ANSEL, ANSI.
 
 <p align="center"><img src="docs/screenshots/gedaudit-vergleich.jpg" alt="Two states of the demo tree compared" width="900"><br><b>Comparing two files</b>: Falkenrath 1.3 against 1.6.</p>
